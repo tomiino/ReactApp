@@ -1,8 +1,13 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { initializeApp } from "firebase/app";
+import { firebaseConfig } from "./firebaseConfig";
+import { Route, Router, Routes } from "react-router-dom";
 
 function App() {
+  const app = initializeApp(firebaseConfig);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,21 +29,3 @@ function App() {
 }
 
 export default App;
-
-/* // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAg3NfxwPSFKHnJhQ1laxO3DOAemy0U9RM",
-  authDomain: "reactapp0411.firebaseapp.com",
-  projectId: "reactapp0411",
-  storageBucket: "reactapp0411.appspot.com",
-  messagingSenderId: "119452348328",
-  appId: "1:119452348328:web:c900e2c025556bd74cf79d"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig); */
