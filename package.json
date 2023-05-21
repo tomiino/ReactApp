@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "firebase": "^9.22.0",
+    "node-sass": "^9.0.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
