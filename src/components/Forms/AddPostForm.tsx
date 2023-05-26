@@ -12,7 +12,7 @@ export const AddPostForm = () => {
           <Icon className="typewriter" path={mdiTypewriter} size={1} />
           <input placeholder="What's on your mind?" className="addPostInput" />
         </div>
-        <hr className="shareHr" />
+        {/* <hr className="shareHr" /> */}
         <div className="addPostBttm">
           <button className="shareBtn">Share</button>
         </div>

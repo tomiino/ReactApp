@@ -1,7 +1,6 @@
 .addPost {
-  margin: auto;
-  width: 60%;
-  height: 125px;
+  width: 100%;
+  height: 145px;
   border-radius: 10px;
   -webkit-box-shadow: 8px 8px 13px 3px rgba(64, 64, 64, 0.53);
   box-shadow: 8px 8px 13px 3px rgba(64, 64, 64, 0.53);
@@ -11,11 +10,15 @@
   margin-top: 5px;
   padding: 10px;
 }
+
 .addPostInput {
-  width: 200px;
-  height: 50px;
+  width: 100%;
+  height: auto;
   border: none;
+  margin-top: 30px;
   border-radius: 10px;
+  inline-size: 150px;
+  overflow-wrap: break-word;
 }
 
 .addPostInput:focus {
@@ -26,20 +29,35 @@
   margin: 20px;
 }
 
-.addPostBttm {
+.addPostTop {
+  display: flex;
   align-items: center;
-  border-radius: 10px;
-  padding-right: 18px;
+}
+
+.addPostBttm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .shareBtn {
-  text-align: center;
-  margin-left: 95%;
-  margin-top: 5px;
-  width: 60px;
+  border: none;
+  padding: 7px;
   border-radius: 5px;
+  font-weight: 500;
+  margin-left: 90%;
+  margin-top: 5%;
+  cursor: pointer;
+  color: white;
+  background-color: green;
+}
+
+.shareBtn:hover {
+  background-color: lightgreen;
+  transition: 3s ease-in-out;
 }
 
 .typewriter {
+  margin-top: 30px;
   margin-right: 10px;
 }
