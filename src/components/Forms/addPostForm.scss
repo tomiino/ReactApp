@@ -1,0 +1,45 @@
+.addPost {
+  margin: auto;
+  width: 60%;
+  height: 125px;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 13px 3px rgba(64, 64, 64, 0.53);
+  box-shadow: 8px 8px 13px 3px rgba(64, 64, 64, 0.53);
+}
+
+.addPostWrapper {
+  margin-top: 5px;
+  padding: 10px;
+}
+.addPostInput {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.addPostInput:focus {
+  outline: none;
+}
+
+.shareHR {
+  margin: 20px;
+}
+
+.addPostBttm {
+  align-items: center;
+  border-radius: 10px;
+  padding-right: 18px;
+}
+
+.shareBtn {
+  text-align: center;
+  margin-left: 95%;
+  margin-top: 5px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.typewriter {
+  margin-right: 10px;
+}
